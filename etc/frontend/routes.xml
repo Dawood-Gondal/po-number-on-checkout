@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    M2Commerce Enterprise
+ * @package     M2Commerce_PoNumberOnCheckout
+ * @copyright   Copyright (c) 2023 M2Commerce Enterprise
+ * @author      dawoodgondaldev@gmail.com
+ */
+ -->
+<config xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <router id="standard">
+        <route id="po_number" frontName="po_number">
+            <module name="M2Commerce_PoNumberOnCheckout"/>
+        </route>
+    </router>
+</config>
